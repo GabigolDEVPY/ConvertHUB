@@ -1,0 +1,213 @@
+{
+  "nome": "AKC",
+  "coluna_tipo_bling": "Tipo",
+  "coluna_numero_bling": "Número",
+  "configs_saida": [
+    {
+      "Nome": "SHOPEE",
+      "Lançamento": 13,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "SHOPEE"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "TIK TOK",
+      "Lançamento": 3397,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "TIKTOK"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "TEMU",
+      "Lançamento": 3596,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "TEMU"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "KWAI",
+      "Lançamento": 3601,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "KWAI"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "SHEIN",
+      "Lançamento": 3215,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "AKC SHOES"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "BONIFICAÇÃO",
+      "Lançamento": 265,
+      "CFOPS": [
+        "6910",
+        "5910"
+      ],
+      "usar_palavra_chave": false,
+      "palavras_chave": [],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    }
+  ],
+  "configs_entrada": [
+    {
+      "Nome": "SHOPEE",
+      "Lançamento": 3065,
+      "CFOPS": [
+        "1353",
+        "2353"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "SHPS"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "SHOPEE",
+      "Lançamento": 3129,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "SHOPEE"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "TIKTOK",
+      "Lançamento": 3605,
+      "CFOPS": [
+        "1353",
+        "2353",
+        "2932"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "TIKTOK"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "TIKTOK",
+      "Lançamento": 3399,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "TIKTOK"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "TEMU",
+      "Lançamento": 3597,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "TEMU"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "KWAI",
+      "Lançamento": 3602,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "KWAI"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "SHEIN",
+      "Lançamento": 3227,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "AKC SHOES"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    }
+  ]
+}

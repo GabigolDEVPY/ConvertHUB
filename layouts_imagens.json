@@ -1,0 +1,58 @@
+{
+  "bradesco": {
+    "nome": "Bradesco",
+    "imagem": "imagens_layouts/bradesco.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\bradesco.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "inter": {
+    "nome": "Inter",
+    "imagem": "imagens_layouts/inter.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\Inter.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "SICOOB - SISBR - BASICO": {
+    "nome": "SICOOB - SISBR - BASICO",
+    "imagem": "imagens_layouts/SICOOB - SISBR - BASICO.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\SICOOB - SISBR - BASICO.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "Sicredi": {
+    "nome": "Sicredi",
+    "imagem": "imagens_layouts/Sicredi.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\Sicredi.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "SICOOB - SISBR - SETINHA": {
+    "nome": "SICOOB - SISBR - SETINHA",
+    "imagem": "imagens_layouts/SICOOB - SISBR - SETINHA.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\SICOOB - SISBR - SETINHA.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "Santander": {
+    "nome": "Santander",
+    "imagem": "imagens_layouts/Santander.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\Santander.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "Itau": {
+    "nome": "Itau",
+    "imagem": "imagens_layouts/itau.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\itau.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  },
+  "Banco do Brasil": {
+    "nome": "Banco do Brasil",
+    "imagem": "imagens_layouts/Banco do Brasil.png",
+    "imagem_original": "C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF OFX\\imagens_layouts\\Banco do Brasil.png",
+    "descricao": "Extrato conta corrente PJ",
+    "atualizado_em": "2026-09-30T10:00:00"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "nome": "SO FESTAS",
+  "coluna_tipo_bling": "Tipo",
+  "coluna_numero_bling": "Número",
+  "configs_saida": [
+    {
+      "Nome": "SHOPEE",
+      "Lançamento": 13,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": false,
+      "palavras_chave": [],
+      "usar_serie": false,
+      "series": []
+    },
+    {
+      "Nome": "MERCADO LIVRE",
+      "Lançamento": 499,
+      "CFOPS": [
+        "5102",
+        "6108",
+        "5106",
+        "6106"
+      ],
+      "usar_palavra_chave": false,
+      "palavras_chave": [],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "MERCADO LIVRE",
+      "Lançamento": 3030,
+      "CFOPS": [
+        "5949",
+        "6949",
+        "6905"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "EBAZAR"
+      ],
+      "usar_serie": true,
+      "series": [
+        "2"
+      ],
+      "exigir_palavra_chave_e_serie": false
+    }
+  ],
+  "configs_entrada": [
+    {
+      "Nome": "MERCADO LIVRE",
+      "Lançamento": 3031,
+      "CFOPS": [
+        "1949",
+        "2949",
+        "2906",
+        "2907"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "EBAZAR",
+        "MERCADO LIVRE"
+      ],
+      "usar_serie": true,
+      "series": [
+        "2"
+      ],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "MERCADO LIVRE",
+      "Lançamento": 3006,
+      "CFOPS": [
+        "1353",
+        "2353"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "EBAZAR",
+        "MERCADO LIVRE"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "SHOPEE",
+      "Lançamento": 3065,
+      "CFOPS": [
+        "1353",
+        "2353"
+      ],
+      "usar_palavra_chave": true,
+      "palavras_chave": [
+        "SHPS",
+        "SHPX"
+      ],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "MERCADO LIVRE",
+      "Lançamento": 3130,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": false,
+      "palavras_chave": [],
+      "usar_serie": true,
+      "series": [
+        "2"
+      ],
+      "exigir_palavra_chave_e_serie": false
+    },
+    {
+      "Nome": "SHOPEE",
+      "Lançamento": 3129,
+      "CFOPS": [
+        "1202",
+        "2202"
+      ],
+      "usar_palavra_chave": false,
+      "palavras_chave": [],
+      "usar_serie": false,
+      "series": [],
+      "exigir_palavra_chave_e_serie": false
+    }
+  ]
+}
