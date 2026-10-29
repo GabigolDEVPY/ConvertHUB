@@ -89,10 +89,6 @@
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pypdfium2_raw\\pdfium.dll',
    'BINARY'),
-  ('webview\\lib\\WebBrowserInterop.x64.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
-   'BINARY'),
   ('webview\\lib\\Microsoft.Web.WebView2.Core.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.Core.dll',
@@ -101,13 +97,9 @@
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-arm64\\native\\WebView2Loader.dll',
    'BINARY'),
-  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
+  ('webview\\lib\\WebBrowserInterop.x64.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
-   'BINARY'),
-  ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
+   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\WebBrowserInterop.x64.dll',
    'BINARY'),
   ('webview\\lib\\WebBrowserInterop.x86.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
@@ -117,393 +109,401 @@
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x64\\native\\WebView2Loader.dll',
    'BINARY'),
-  ('pythonnet\\runtime\\System.ComponentModel.TypeConverter.dll',
+  ('webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.TypeConverter.dll',
+   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\runtimes\\win-x86\\native\\WebView2Loader.dll',
    'BINARY'),
-  ('pythonnet\\runtime\\System.ComponentModel.Primitives.dll',
+  ('webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Dynamic.Runtime.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Dynamic.Runtime.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Globalization.Extensions.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Globalization.Extensions.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Text.RegularExpressions.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Text.RegularExpressions.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.InteropServices.RuntimeInformation.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.InteropServices.RuntimeInformation.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.Tasks.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Tasks.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Cryptography.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Text.Encoding.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Text.Encoding.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Numerics.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Numerics.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Serialization.Formatters.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Formatters.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.Contracts.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Contracts.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.ValueTuple.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ValueTuple.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.Tasks.Parallel.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Tasks.Parallel.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Xml.ReaderWriter.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.ReaderWriter.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.Overlapped.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Overlapped.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Handles.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Handles.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Cryptography.Algorithms.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Algorithms.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Cryptography.X509Certificates.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.X509Certificates.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.Debug.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Debug.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Collections.Concurrent.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.Concurrent.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Drawing.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Drawing.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Serialization.Json.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Json.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Console.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Console.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.Http.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Http.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.Compression.ZipFile.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.Compression.ZipFile.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.Tools.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Tools.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.NetworkInformation.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.NetworkInformation.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.NameResolution.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.NameResolution.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Linq.Parallel.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.Parallel.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.MemoryMappedFiles.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.MemoryMappedFiles.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Collections.Specialized.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.Specialized.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Linq.Expressions.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.Expressions.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Claims.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Claims.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.FileSystem.DriveInfo.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.DriveInfo.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Collections.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.TraceSource.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.TraceSource.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Xml.XDocument.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XDocument.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Xml.XmlDocument.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XmlDocument.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Globalization.Calendars.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Globalization.Calendars.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Resources.ResourceManager.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Resources.ResourceManager.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.TextWriterTraceListener.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.TextWriterTraceListener.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.AppContext.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.AppContext.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Cryptography.Csp.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Csp.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.Sockets.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Sockets.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.CompilerServices.VisualC.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.CompilerServices.VisualC.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.IsolatedStorage.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.IsolatedStorage.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.Compression.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.Compression.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Reflection.Extensions.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Reflection.Extensions.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Resources.Reader.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Resources.Reader.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Globalization.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Globalization.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.WebSockets.Client.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.WebSockets.Client.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\netstandard.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\netstandard.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.WebHeaderCollection.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.WebHeaderCollection.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Collections.NonGeneric.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.NonGeneric.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Cryptography.Encoding.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Encoding.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Linq.Queryable.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.Queryable.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Xml.XPath.XDocument.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XPath.XDocument.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.Timer.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Timer.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Resources.Writer.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Resources.Writer.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\Python.Runtime.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Extensions.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Extensions.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.WebSockets.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.WebSockets.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Reflection.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Reflection.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Data.Common.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Data.Common.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.FileSystem.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Security.SecureString.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.SecureString.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.FileSystem.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Xml.XPath.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XPath.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Xml.XmlSerializer.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XmlSerializer.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.ObjectModel.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ObjectModel.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.Tracing.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Tracing.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.ComponentModel.EventBasedAsync.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.EventBasedAsync.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.UnmanagedMemoryStream.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.UnmanagedMemoryStream.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\Microsoft.Win32.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Microsoft.Win32.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.Thread.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Thread.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Threading.ThreadPool.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.ThreadPool.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.FileVersionInfo.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.FileVersionInfo.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Text.Encoding.Extensions.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Text.Encoding.Extensions.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.InteropServices.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.InteropServices.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.Requests.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Requests.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Serialization.Primitives.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Primitives.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.Security.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Security.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Runtime.Serialization.Xml.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Xml.dll',
+   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\Microsoft.Web.WebView2.WinForms.dll',
    'BINARY'),
   ('pythonnet\\runtime\\System.ComponentModel.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.dll',
    'BINARY'),
-  ('pythonnet\\runtime\\System.Reflection.dll',
+  ('pythonnet\\runtime\\System.Diagnostics.Tools.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Reflection.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Diagnostics.StackTrace.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.StackTrace.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.Net.Ping.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Ping.dll',
-   'BINARY'),
-  ('pythonnet\\runtime\\System.IO.FileSystem.Watcher.dll',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.Watcher.dll',
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Tools.dll',
    'BINARY'),
   ('pythonnet\\runtime\\System.IO.Pipes.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.Pipes.dll',
    'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.CompilerServices.VisualC.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.CompilerServices.VisualC.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Globalization.Calendars.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Globalization.Calendars.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Xml.XmlSerializer.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XmlSerializer.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.TraceSource.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.TraceSource.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.Sockets.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Sockets.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Claims.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Claims.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.TextWriterTraceListener.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.TextWriterTraceListener.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.Security.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Security.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.Contracts.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Contracts.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Resources.Reader.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Resources.Reader.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.UnmanagedMemoryStream.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.UnmanagedMemoryStream.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.Tasks.Parallel.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Tasks.Parallel.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.Tracing.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Tracing.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.FileSystem.Watcher.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.Watcher.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Text.Encoding.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Text.Encoding.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.Http.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Http.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Xml.XPath.XDocument.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XPath.XDocument.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Serialization.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.NetworkInformation.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.NetworkInformation.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Reflection.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Reflection.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Numerics.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Numerics.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.Compression.ZipFile.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.Compression.ZipFile.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Serialization.Json.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Json.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.FileSystem.DriveInfo.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.DriveInfo.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.ComponentModel.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Xml.XDocument.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XDocument.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.SecureString.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.SecureString.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.InteropServices.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.InteropServices.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.Timer.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Timer.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Collections.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.Tasks.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Tasks.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Extensions.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Extensions.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.ValueTuple.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ValueTuple.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Xml.XmlDocument.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XmlDocument.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.InteropServices.RuntimeInformation.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.InteropServices.RuntimeInformation.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.Thread.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Thread.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Cryptography.Encoding.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Encoding.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.FileSystem.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Reflection.Extensions.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Reflection.Extensions.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.FileSystem.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.FileSystem.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Cryptography.X509Certificates.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.X509Certificates.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\Microsoft.Win32.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Microsoft.Win32.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Linq.Expressions.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.Expressions.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.ObjectModel.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ObjectModel.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Data.Common.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Data.Common.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.ComponentModel.TypeConverter.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.TypeConverter.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Cryptography.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Primitives.dll',
+   'BINARY'),
   ('pythonnet\\runtime\\System.Diagnostics.Process.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Process.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.Ping.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Ping.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Drawing.Primitives.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Drawing.Primitives.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.IsolatedStorage.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.IsolatedStorage.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.ComponentModel.EventBasedAsync.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.ComponentModel.EventBasedAsync.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.ThreadPool.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.ThreadPool.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Dynamic.Runtime.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Dynamic.Runtime.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Cryptography.Csp.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Csp.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.Debug.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.Debug.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Serialization.Formatters.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Formatters.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.FileVersionInfo.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.FileVersionInfo.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Resources.Writer.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Resources.Writer.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.WebSockets.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.WebSockets.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\Python.Runtime.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\Python.Runtime.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Linq.Parallel.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.Parallel.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Resources.ResourceManager.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Resources.ResourceManager.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.Compression.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.Compression.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Collections.Specialized.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.Specialized.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\netstandard.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\netstandard.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Text.RegularExpressions.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Text.RegularExpressions.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Console.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Console.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Globalization.Extensions.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Globalization.Extensions.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Globalization.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Globalization.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.NameResolution.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.NameResolution.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.Requests.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.Requests.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Reflection.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Reflection.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Xml.ReaderWriter.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.ReaderWriter.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.WebHeaderCollection.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.WebHeaderCollection.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Principal.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Principal.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Linq.Queryable.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.Queryable.dll',
    'BINARY'),
   ('pythonnet\\runtime\\System.Linq.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Linq.dll',
    'BINARY'),
-  ('pythonnet\\runtime\\System.Security.Principal.dll',
+  ('pythonnet\\runtime\\System.IO.dll',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Principal.dll',
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Diagnostics.StackTrace.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Diagnostics.StackTrace.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Serialization.Xml.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Serialization.Xml.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Runtime.Handles.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Runtime.Handles.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Net.WebSockets.Client.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Net.WebSockets.Client.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Collections.Concurrent.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.Concurrent.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Xml.XPath.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Xml.XPath.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Threading.Overlapped.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Threading.Overlapped.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Security.Cryptography.Algorithms.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Security.Cryptography.Algorithms.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.AppContext.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.AppContext.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.IO.MemoryMappedFiles.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.IO.MemoryMappedFiles.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Text.Encoding.Extensions.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Text.Encoding.Extensions.dll',
+   'BINARY'),
+  ('pythonnet\\runtime\\System.Collections.NonGeneric.dll',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pythonnet\\runtime\\System.Collections.NonGeneric.dll',
    'BINARY'),
   ('python313.dll',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
@@ -713,13 +713,13 @@
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pypdfium2_raw\\version.json',
    'DATA'),
-  ('cryptography-50.0.1.dist-info\\METADATA',
+  ('cryptography-50.0.1.dist-info\\RECORD',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\METADATA',
+   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\RECORD',
    'DATA'),
-  ('cryptography-50.0.1.dist-info\\licenses\\LICENSE.APACHE',
+  ('cryptography-50.0.1.dist-info\\sboms\\sbom.json',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\licenses\\LICENSE.APACHE',
+   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\sboms\\sbom.json',
    'DATA'),
   ('cryptography-50.0.1.dist-info\\sboms\\cryptography-rust.cyclonedx.json',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
@@ -733,649 +733,649 @@
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\WHEEL',
    'DATA'),
-  ('cryptography-50.0.1.dist-info\\sboms\\sbom.json',
+  ('cryptography-50.0.1.dist-info\\licenses\\LICENSE.APACHE',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\sboms\\sbom.json',
-   'DATA'),
-  ('cryptography-50.0.1.dist-info\\INSTALLER',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\INSTALLER',
+   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\licenses\\LICENSE.APACHE',
    'DATA'),
   ('cryptography-50.0.1.dist-info\\licenses\\LICENSE',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\licenses\\LICENSE',
    'DATA'),
-  ('cryptography-50.0.1.dist-info\\RECORD',
+  ('cryptography-50.0.1.dist-info\\METADATA',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\RECORD',
+   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\METADATA',
    'DATA'),
-  ('pdfminer\\cmap\\B5pc-H.json.gz',
+  ('cryptography-50.0.1.dist-info\\INSTALLER',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5pc-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBpc-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBpc-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UTF16-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF16-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\B5pc-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5pc-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\to-unicode-Adobe-GB1.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-GB1.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSC-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJISX0213-UTF32-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX0213-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UTF32-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\90pv-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90pv-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBK2K-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK2K-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UTF8-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF8-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UCS2-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKgccs-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKgccs-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBK-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Roman-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Roman-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBK2K-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK2K-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UTF32-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF32-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Hankaku-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hankaku-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\90ms-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90ms-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UTF8-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF8-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBTpc-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBTpc-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\CNS2-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS2-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSC-Johab-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-Johab-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\NWP-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\NWP-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\CNS2-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS2-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GB-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS2004-UTF32-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Hankaku-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hankaku-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Add-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBT-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\to-unicode-Adobe-CNS1.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-CNS1.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSC-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UTF8-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF8-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\WP-Symbol-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\WP-Symbol-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBT-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\83pv-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\83pv-RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\ETHK-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETHK-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UTF8-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF8-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UTF16-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF16-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\CNS-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Hiragana-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hiragana-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UCS2-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UCS2-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UTF16-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF16-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UTF8-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF8-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UTF8-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF8-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJISX0213-UTF32-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX0213-UTF32-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJISX02132004-UTF32-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX02132004-UTF32-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UCS2-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UCS2-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS2004-UTF8-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF8-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\README.txt',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\README.txt',
-   'DATA'),
-  ('pdfminer\\cmap\\KSCpc-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCpc-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UTF16-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF16-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBKp-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBKp-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GB-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UCS2-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UCS2-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJISX02132004-UTF32-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX02132004-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSCms-UHC-HW-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-HW-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78ms-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78ms-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UTF32-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\90msp-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90msp-RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Add-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKm314-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm314-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GB-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKdlb-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdlb-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSCms-UHC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBKp-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBKp-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBT-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Ext-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBT-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSCms-UHC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSC-Johab-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-Johab-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UCS2-HW-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-HW-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Roman-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Roman-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKdlb-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdlb-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UTF32-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF32-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UTF16-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF16-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UTF32-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF32-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Katakana-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Katakana-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Add-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\CNS-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UCS2-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\ETHK-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETHK-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UTF16-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF16-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS2004-UTF8-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF8-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UTF16-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF16-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\83pv-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\83pv-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\WP-Symbol-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\WP-Symbol-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Ext-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\90pv-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90pv-RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKm314-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm314-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS2004-UTF16-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF16-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSCpc-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCpc-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UCS2-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UCS2-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\90ms-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90ms-RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\ETen-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETen-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBK-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\to-unicode-Adobe-Japan1.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-Japan1.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Ext-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Hiragana-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hiragana-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\to-unicode-Adobe-Korea1.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-Korea1.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKgccs-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKgccs-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKm471-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm471-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniKS-UTF32-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF32-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\KSCms-UHC-HW-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-HW-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UTF32-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Ext-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-RKSJ-H.json.gz',
+   'OFX\\.venv\\Lib\\site-packages\\cryptography-50.0.1.dist-info\\INSTALLER',
    'DATA'),
   ('pdfminer\\cmap\\GBpc-EUC-V.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBpc-EUC-V.json.gz',
    'DATA'),
-  ('pdfminer\\cmap\\UniJIS2004-UTF16-H.json.gz',
+  ('pdfminer\\cmap\\78-V.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF16-H.json.gz',
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-V.json.gz',
    'DATA'),
-  ('pdfminer\\cmap\\HKscs-B5-H.json.gz',
+  ('pdfminer\\cmap\\UniJISX0213-UTF32-H.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKscs-B5-H.json.gz',
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX0213-UTF32-H.json.gz',
    'DATA'),
-  ('pdfminer\\cmap\\UniGB-UCS2-V.json.gz',
+  ('pdfminer\\cmap\\ETHK-B5-H.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UCS2-V.json.gz',
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETHK-B5-H.json.gz',
    'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UTF32-V.json.gz',
+  ('pdfminer\\cmap\\UniJIS-UCS2-H.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF32-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UCS2-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UCS2-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\ETen-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETen-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UTF16-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF16-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniGB-UTF8-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF8-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\CNS1-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS1-V.json.gz',
-   'DATA'),
-  ('pdfminer\\py.typed',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\py.typed',
-   'DATA'),
-  ('pdfminer\\cmap\\ETenms-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETenms-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKdla-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdla-B5-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78-RKSJ-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-RKSJ-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Add-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniCNS-UTF8-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF8-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GBTpc-EUC-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBTpc-EUC-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\90msp-RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90msp-RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\NWP-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\NWP-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKdla-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdla-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\ETenms-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETenms-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\RKSJ-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\RKSJ-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\GB-EUC-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-EUC-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKm471-B5-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm471-B5-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\78-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\UniJIS-UCS2-HW-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-HW-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\CNS1-H.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS1-H.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\Katakana-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Katakana-V.json.gz',
-   'DATA'),
-  ('pdfminer\\cmap\\HKscs-B5-V.json.gz',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKscs-B5-V.json.gz',
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-H.json.gz',
    'DATA'),
   ('pdfminer\\cmap\\78ms-RKSJ-H.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78ms-RKSJ-H.json.gz',
    'DATA'),
+  ('pdfminer\\cmap\\GBT-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UTF16-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF16-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UTF32-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF32-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\to-unicode-Adobe-GB1.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-GB1.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS2004-UTF16-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF16-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJISX02132004-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX02132004-UTF32-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\CNS2-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS2-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBK-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\NWP-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\NWP-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKm314-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm314-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Hankaku-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hankaku-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\to-unicode-Adobe-Korea1.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-Korea1.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UTF16-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF16-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKdla-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdla-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKm314-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm314-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKdla-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdla-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBpc-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBpc-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSCms-UHC-HW-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-HW-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UTF16-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF16-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\78ms-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78ms-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Roman-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Roman-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\90ms-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90ms-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKscs-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKscs-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\78-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS2004-UTF16-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF16-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UCS2-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UCS2-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBK-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKm471-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm471-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS2004-UTF8-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF8-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GB-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\ETen-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETen-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GB-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UCS2-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UCS2-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSCpc-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCpc-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSCpc-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCpc-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKgccs-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKgccs-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UTF8-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF8-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Add-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBT-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF32-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UCS2-HW-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-HW-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF32-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\83pv-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\83pv-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\CNS-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UTF16-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF16-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\WP-Symbol-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\WP-Symbol-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSCms-UHC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\CNS-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UTF16-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF16-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Hiragana-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hiragana-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UCS2-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UCS2-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\ETHK-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETHK-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\to-unicode-Adobe-Japan1.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-Japan1.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSCms-UHC-HW-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-HW-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UCS2-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UCS2-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\78-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UCS2-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UCS2-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\78-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF32-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\CNS1-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS1-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBK2K-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK2K-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSC-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF32-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Katakana-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Katakana-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\90ms-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90ms-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJISX02132004-UTF32-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX02132004-UTF32-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GB-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UTF8-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF8-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSC-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GB-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GB-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Ext-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\README.txt',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\README.txt',
+   'DATA'),
+  ('pdfminer\\cmap\\B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UTF16-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF16-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UTF8-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF8-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UTF8-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF8-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS2004-UTF8-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF8-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKgccs-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKgccs-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSC-Johab-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-Johab-V.json.gz',
+   'DATA'),
+  ('pdfminer\\py.typed',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\py.typed',
+   'DATA'),
+  ('pdfminer\\cmap\\GBTpc-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBTpc-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBTpc-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBTpc-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKdlb-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdlb-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\B5pc-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5pc-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Ext-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKscs-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKscs-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSCms-UHC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSCms-UHC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UTF8-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF8-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\ETen-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETen-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\ETenms-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETenms-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\90pv-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90pv-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\90pv-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90pv-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBT-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UCS2-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Hankaku-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hankaku-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Hiragana-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Hiragana-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\CNS2-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS2-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\90msp-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90msp-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKm471-B5-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKm471-B5-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UTF8-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF8-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\KSC-Johab-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\KSC-Johab-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UTF16-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF16-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UTF32-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF32-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBT-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBT-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Add-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\83pv-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\83pv-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UCS2-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UCS2-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBK2K-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBK2K-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\78-EUC-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-EUC-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UTF8-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF8-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS-UTF32-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UTF32-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\to-unicode-Adobe-CNS1.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\to-unicode-Adobe-CNS1.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Add-RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Ext-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\90msp-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\90msp-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniGB-UTF32-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniGB-UTF32-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\NWP-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\NWP-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\GBKp-EUC-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBKp-EUC-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\B5pc-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\B5pc-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\CNS1-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\CNS1-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\ETenms-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\ETenms-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJISX0213-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJISX0213-UTF32-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\78-RKSJ-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\78-RKSJ-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Add-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Add-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Katakana-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Katakana-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Ext-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Ext-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\RKSJ-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\RKSJ-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\HKdlb-B5-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\HKdlb-B5-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniKS-UTF8-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniKS-UTF8-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\Roman-H.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\Roman-H.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\WP-Symbol-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\WP-Symbol-V.json.gz',
+   'DATA'),
   ('pdfminer\\cmap\\UniJIS2004-UTF32-H.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF32-H.json.gz',
    'DATA'),
-  ('webview\\js\\customize.js',
+  ('pdfminer\\cmap\\GBKp-EUC-H.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\GBKp-EUC-H.json.gz',
    'DATA'),
-  ('webview\\js\\finish.js',
+  ('pdfminer\\cmap\\UniJIS-UCS2-HW-V.json.gz',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS-UCS2-HW-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniCNS-UTF16-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniCNS-UTF16-V.json.gz',
+   'DATA'),
+  ('pdfminer\\cmap\\UniJIS2004-UTF32-V.json.gz',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer\\cmap\\UniJIS2004-UTF32-V.json.gz',
    'DATA'),
   ('webview\\js\\lib\\dom_json.js',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\webview\\js\\lib\\dom_json.js',
    'DATA'),
+  ('webview\\js\\customize.js',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\webview\\js\\customize.js',
+   'DATA'),
   ('webview\\js\\api.js',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\webview\\js\\api.js',
    'DATA'),
-  ('webview\\js\\lib\\polyfill.js',
+  ('webview\\js\\finish.js',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
+   'OFX\\.venv\\Lib\\site-packages\\webview\\js\\finish.js',
+   'DATA'),
+  ('webview\\lib\\pywebview-android.jar',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
    'DATA'),
   ('webview\\js\\state.js',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\webview\\js\\state.js',
    'DATA'),
-  ('webview\\lib\\pywebview-android.jar',
+  ('webview\\js\\lib\\polyfill.js',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\webview\\lib\\pywebview-android.jar',
+   'OFX\\.venv\\Lib\\site-packages\\webview\\js\\lib\\polyfill.js',
    'DATA'),
   ('pythonnet\\runtime\\Python.Runtime.xml',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
@@ -1390,22 +1390,6 @@
    'OFX\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
    'ipsum.txt',
    'DATA'),
-  ('pdfminer_six-20260107.dist-info\\licenses\\LICENSE',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\licenses\\LICENSE',
-   'DATA'),
-  ('pdfminer_six-20260107.dist-info\\METADATA',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\METADATA',
-   'DATA'),
-  ('pdfminer_six-20260107.dist-info\\INSTALLER',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\INSTALLER',
-   'DATA'),
-  ('pdfminer_six-20260107.dist-info\\top_level.txt',
-   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
-   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\top_level.txt',
-   'DATA'),
   ('pdfminer_six-20260107.dist-info\\RECORD',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\RECORD',
@@ -1414,6 +1398,22 @@
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\WHEEL',
    'DATA'),
+  ('pdfminer_six-20260107.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pdfminer_six-20260107.dist-info\\METADATA',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\METADATA',
+   'DATA'),
+  ('pdfminer_six-20260107.dist-info\\top_level.txt',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\top_level.txt',
+   'DATA'),
+  ('pdfminer_six-20260107.dist-info\\INSTALLER',
+   'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
+   'OFX\\.venv\\Lib\\site-packages\\pdfminer_six-20260107.dist-info\\INSTALLER',
+   'DATA'),
   ('base_library.zip',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\build\\app\\base_library.zip',
@@ -1421,7 +1421,7 @@
  [],
  False,
  False,
- 1793274925,
+ 1793280665,
  [('runw.exe',
    'C:\\Users\\Usuario\\Documents\\PROGRAMAS 2026\\CONVERSOR PDF '
    'OFX\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
