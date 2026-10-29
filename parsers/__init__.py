@@ -13,7 +13,7 @@ Cada transação retornada por ``parse`` é um dicionário com as chaves:
   nome      -> str | None (nome do favorecido/origem, quando houver)
 """
 
-from . import bradesco, sicoob1, sicoob2, sicredi, Inter, santander, itau, banco_brasil, Aplicacao_sicoob, Caixa_economica, nubank, itau2, banco_brasil2, C6bank, Pagbank, Stone, banco_brasil3
+from . import bradesco, sicoob1, sicoob2, sicredi, Inter, santander, itau, banco_brasil, Aplicacao_sicoob, Caixa_economica, nubank, itau2, banco_brasil2, C6bank, Pagbank, Stone, banco_brasil3, mercado_pago, aplicacao_pagbank
 
 
 LAYOUTS = {
@@ -34,4 +34,6 @@ LAYOUTS = {
     "Pagbank": Pagbank,
     "Stone": Stone,
     "banco_brasil3": banco_brasil3,
+    "Mercado Pago": mercado_pago,
+    "aplicacao_pagbank": aplicacao_pagbank,
 }
