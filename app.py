@@ -446,110 +446,350 @@ def delete_profile(name):
 # ══════════════════════════════════════════════════════════════════════
 #  Smart Layout (testa todos os parsers)
 # ══════════════════════════════════════════════════════════════════════
+# [PATCH smart-layout v2]
 def _norm_txt(s):
     import unicodedata
     s = unicodedata.normalize("NFKD", str(s or ""))
-    return "".join(c for c in s if not unicodedata.combining(c)).lower()
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    return re.sub(r"\s+", " ", s)
+
+
+def _compacto(s):
+    return re.sub(r"[^a-z0-9]", "", s)
 
 
 _TOKENS_GENERICOS = {
     "banco", "bank", "extrato", "extratos", "conta", "corrente", "layout",
     "sistema", "cooperativo", "cooperativa", "cooperativas", "credito",
-    "brasil", "financeiros", "financeira", "servicos", "plataforma",
-    "saldo", "para", "movimentacao", "historico", "pagamentos", "digital",
+    "financeiros", "financeira", "servicos", "plataforma", "saldo", "para",
+    "movimentacao", "historico", "pagamentos", "digital", "pdf", "ofx",
+    "pessoa", "fisica", "juridica", "empresarial", "novo", "antigo",
 }
+_STOPWORDS = {"de", "do", "da", "dos", "das", "the", "and", "for", "com",
+              "sem", "por", "ltda", "agencia"}
+_PESO_FONTE = {"cabecalho": 1.5, "pagina1": 1.3, "corpo": 1.0,
+               "rodape": 0.8, "meta": 0.8, "nome": 0.6}
+_DET_FORTE = 18.0
 
 
-def _amostra_pdf(pdf, paginas=2):
+def _tokens(s):
+    out = []
+    for t in re.findall(r"[a-z0-9]+", s):
+        if t in _TOKENS_GENERICOS or t in _STOPWORDS:
+            continue
+        if len(t) >= 3 or (len(t) == 2 and any(c.isdigit() for c in t)):
+            out.append(t)
+    return out
+
+
+def _extrair_fontes_pdf(pdf, max_pag=6):
+    """Extrai texto do PDF por várias estratégias/regiões."""
+    fontes = {"cabecalho": "", "pagina1": "", "corpo": "", "rodape": "",
+              "meta": "", "nome": Path(pdf).stem}
     try:
         import pdfplumber
         with pdfplumber.open(str(pdf)) as doc:
-            return "\n".join((pg.extract_text() or "") for pg in doc.pages[:paginas])
-    except Exception:
-        return ""
-
-
-def ranquear_layouts(pdf):
-    """Pré-análise: lê as primeiras páginas e pontua cada layout pelo nome do banco."""
-    texto = _norm_txt(_amostra_pdf(pdf))
-    if not texto.strip():
-        return []
-    ranking = []
-    for key, mod in LAYOUTS.items():
-        score = 0
-        vistos = set()
-        fontes = [key, getattr(mod, "NOME", ""), getattr(mod, "BANCO_NOME", ""),
-                  getattr(mod, "BANCO_ORG", "")]
-        for f in fontes:
-            fn = _norm_txt(f).strip()
-            if len(fn) >= 6 and fn in texto:
-                score += 10
-            for tok in re.findall(r"[a-z]{4,}", fn):
-                if tok in _TOKENS_GENERICOS or tok in vistos:
-                    continue
-                vistos.add(tok)
-                if re.search(r"(?<![a-z])" + re.escape(tok) + r"(?![a-z])", texto):
-                    score += 3
-        banco_id = str(getattr(mod, "BANCO_ID", "") or "").strip()
-        if banco_id and banco_id != "000" and re.search(
-                r"(?<!\d)" + re.escape(banco_id) + r"(?!\d)", texto):
-            score += 1
-        padrao = getattr(mod, "DETECTAR", None)
-        if padrao:
             try:
-                if re.search(padrao, texto, re.IGNORECASE):
-                    score += 20
+                meta = doc.metadata or {}
+                fontes["meta"] = " ".join(str(v) for v in meta.values() if v)
             except Exception:
                 pass
-        ranking.append((score, key))
-    ranking.sort(key=lambda x: (-x[0], x[1]))
-    return ranking
+            paginas = doc.pages
+            n = len(paginas)
+            idx = list(range(min(n, max_pag)))
+            if n > max_pag:
+                idx.append(n - 1)
+            for k, i in enumerate(idx):
+                pg = paginas[i]
+                try:
+                    txt = pg.extract_text() or ""
+                except Exception:
+                    txt = ""
+                if not txt.strip():
+                    try:
+                        txt = " ".join(w["text"] for w in pg.extract_words())
+                    except Exception:
+                        txt = ""
+                if k == 0:
+                    fontes["pagina1"] = txt
+                fontes["corpo"] += "\n" + txt
+                try:
+                    h, w = float(pg.height), float(pg.width)
+                    if k == 0:
+                        fontes["cabecalho"] += "\n" + (
+                            pg.crop((0, 0, w, h * 0.22)).extract_text() or "")
+                    fontes["rodape"] += "\n" + (
+                        pg.crop((0, h * 0.88, w, h)).extract_text() or "")
+                except Exception:
+                    pass
+    except Exception:
+        pass
+    return fontes
+
+
+def _identidade_layout(key, mod):
+    brutos = [key, getattr(mod, "NOME", ""), getattr(mod, "BANCO_NOME", ""),
+              getattr(mod, "BANCO_ORG", "")]
+    extra = getattr(mod, "ALIASES", None) or getattr(mod, "PALAVRAS_CHAVE", None)
+    if isinstance(extra, (list, tuple, set)):
+        brutos += list(extra)
+    elif isinstance(extra, str):
+        brutos.append(extra)
+    frases = set()
+    for b in brutos:
+        if not b:
+            continue
+        n = _norm_txt(b).strip()
+        partes = [n] + [p for p in re.split(r"[-–—/()|,;:_]+", n)]
+        for p in partes:
+            p = re.sub(r"\s+", " ", p).strip()
+            if len(p) >= 4 and _tokens(p):
+                frases.add(p)
+    tokens = set()
+    for f in frases:
+        tokens.update(_tokens(f))
+    return frases, tokens
+
+
+def _pontuar_layouts(fontes):
+    """Retorna {layout: (pontuação, [evidências])}."""
+    norm = {k: _norm_txt(v) for k, v in fontes.items()}
+    comp = {k: _compacto(v) for k, v in norm.items()}
+    total = "\n".join(norm[k] for k in ("cabecalho", "pagina1", "corpo"))
+    ids = {k: _identidade_layout(k, m) for k, m in LAYOUTS.items()}
+    df = defaultdict(int)
+    for _, (_, toks) in ids.items():
+        for t in toks:
+            df[t] += 1
+
+    resultado = {}
+    for key, mod in LAYOUTS.items():
+        frases, tokens = ids[key]
+        evid = []
+        vals = []
+        for f in sorted(frases):
+            pad = re.compile(r"(?<![a-z0-9])" + re.escape(f) + r"(?![a-z0-9])")
+            mult = 0.0
+            for src, peso in _PESO_FONTE.items():
+                if peso > mult and pad.search(norm[src]):
+                    mult = peso
+            if not mult and " " in f:
+                fc = _compacto(f)
+                if len(fc) >= 9:
+                    for src, peso in _PESO_FONTE.items():
+                        if fc in comp[src]:
+                            mult = max(mult, peso * 0.6)
+            if mult:
+                vals.append((12 + 3 * min(len(_tokens(f)), 3)) * mult)
+                evid.append(f)
+        vals.sort(reverse=True)
+        score = (vals[0] + 0.25 * sum(vals[1:])) if vals else 0.0
+
+        tok_score, casados = 0.0, 0
+        for t in tokens:
+            pad = re.compile(r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])")
+            mult = 0.0
+            for src, peso in _PESO_FONTE.items():
+                if peso > mult and pad.search(norm[src]):
+                    mult = peso
+            if mult:
+                casados += 1
+                tok_score += (3.0 / max(df[t], 1)) * mult
+        score += min(tok_score, 8.0)
+        if tokens:
+            score += 6.0 * casados / len(tokens)
+
+        banco_id = str(getattr(mod, "BANCO_ID", "") or "").strip()
+        if banco_id.isdigit() and banco_id.strip("0"):
+            bid = banco_id.lstrip("0")
+            padrao_id = (r"(?:banco|bco|cod(?:igo)?\.?\s*(?:do\s*)?banco|compe)"
+                         r"\s*[:\-n°º.]*\s*0*" + re.escape(bid) + r"(?!\d)")
+            if re.search(padrao_id, total):
+                score += 8.0
+                evid.append(f"cod.banco {banco_id}")
+
+        det = getattr(mod, "DETECTAR", None)
+        if det:
+            try:
+                pads = det if isinstance(det, (list, tuple)) else [det]
+                for p in pads:
+                    achou = (p.search(total) if hasattr(p, "search")
+                             else re.search(p, total, re.IGNORECASE))
+                    if achou:
+                        score += 30.0
+                        evid.append("DETECTAR")
+                        break
+            except Exception:
+                pass
+        resultado[key] = (round(score, 2), evid)
+    return resultado
+
+
+def ranquear_layouts(pdf, fontes=None):
+    if fontes is None:
+        fontes = _extrair_fontes_pdf(pdf)
+    pont = _pontuar_layouts(fontes)
+    r = [(s, k) for k, (s, _) in pont.items()]
+    r.sort(key=lambda x: (-x[0], x[1]))
+    return r
+
+
+def _como_date(d):
+    if isinstance(d, datetime):
+        return d.date()
+    if isinstance(d, date):
+        return d
+    return None
+
+
+def _trans_incompleta(t):
+    return bool(t.get("incompleto") or t.get("data") is None
+                or t.get("valor") is None
+                or not str(t.get("descricao") or t.get("memo") or "").strip())
+
+
+def _qualidade(trans, info, avisos, info_ok):
+    n = len(trans)
+    inc = sum(1 for t in trans if _trans_incompleta(t))
+    comp = 1.0 - inc / n
+    q = comp ** 3
+    q *= max(0.4, 1.0 - 0.08 * avisos)
+    if not info_ok:
+        q *= 0.85
+    if n == 1:
+        q *= 0.85
+    datas = [x for x in (_como_date(t.get("data")) for t in trans) if x]
+    if datas:
+        ano = date.today().year
+        fora_ano = sum(1 for d in datas if d.year < 1990 or d.year > ano + 1)
+        q *= 1.0 - 0.6 * fora_ano / len(datas)
+        if info:
+            pi = _como_date(info.get("periodo_inicio"))
+            pf = _como_date(info.get("periodo_fim"))
+            if pi and pf:
+                try:
+                    fora = sum(1 for d in datas
+                               if (pi - d).days > 31 or (d - pf).days > 31)
+                    q *= 1.0 - 0.5 * fora / len(datas)
+                except Exception:
+                    pass
+    descs = [str(t.get("descricao") or t.get("memo") or "").strip()
+             for t in trans]
+    ruins = sum(1 for d in descs
+                if len(d) < 3 or not re.search(r"[A-Za-zÀ-ÿ]", d))
+    q *= 1.0 - 0.3 * ruins / n
+    return max(q, 0.0), comp
+
+
+def _final(det, q, top_det):
+    f = q * 55.0 + min(det / 45.0, 1.0) * 45.0
+    if det <= 0 and top_det >= _DET_FORTE:
+        f *= 0.7
+    return f
+
+
+def _melhor(avaliados, top_det):
+    cands = [e for e in avaliados.values() if e]
+    if not cands:
+        return None
+    if any(e["comp"] >= 0.9 for e in cands):
+        cands = [e for e in cands if e["comp"] >= 0.6]
+    for e in cands:
+        e["final"] = _final(e["det"], e["q"], top_det)
+    cands.sort(key=lambda e: (-e["final"], e["avisos"], -e["n"], e["key"]))
+    return cands[0]
 
 
 def smart_layout(pdf, log=lambda *a, **k: None):
-    ranking = ranquear_layouts(pdf)
-    pontos = {k: s for s, k in ranking}
-    if ranking and ranking[0][0] > 0:
-        ordem = [k for s, k in ranking if s > 0] + [k for s, k in ranking if s <= 0]
-        log(f"Pré-análise: banco provável -> {ranking[0][1]} "
-            f"(pontuação {ranking[0][0]})")
-    else:
-        ordem = sorted(LAYOUTS)
-        log("Pré-análise: banco não identificado no texto; testando todos os layouts.")
+    pdf = Path(pdf)
+    if not LAYOUTS:
+        raise ValueError("Nenhum layout carregado.")
+    fontes = _extrair_fontes_pdf(pdf)
+    sem_texto = not (fontes["corpo"].strip() or fontes["pagina1"].strip())
+    pont = _pontuar_layouts(fontes)
+    ordem = sorted(LAYOUTS, key=lambda k: (-pont[k][0], k))
+    top_det = pont[ordem[0]][0]
 
-    candidatos = []
-    for key in ordem:
+    if sem_texto:
+        log("Pré-análise: PDF sem texto extraível; validando pela leitura real.")
+    elif top_det > 0:
+        ev = ", ".join(pont[ordem[0]][1][:3])
+        log(f"Pré-análise: banco provável -> {ordem[0]} "
+            f"(pontuação {top_det:.1f}; evidências: {ev})")
+    else:
+        log("Pré-análise: banco não identificado no texto; "
+            "validando todos os layouts pela leitura real.")
+
+    avaliados = {}
+
+    def avaliar(key):
+        if key in avaliados:
+            return avaliados[key]
         mod = LAYOUTS[key]
         try:
             trans = mod.parse(pdf)
             if not trans:
                 raise ValueError("nenhuma transação")
-            incomp = sum(1 for t in trans
-                         if t.get("incompleto") or t.get("data") is None
-                         or t.get("valor") is None)
-            avisos = 0
+        except Exception as exc:
+            avaliados[key] = None
+            log(f"Smart Layout: {key} descartado ({str(exc)[:80]})")
+            return None
+        info, info_ok, avisos = None, True, 0
+        try:
+            info = mod.info(pdf)
+        except Exception:
+            info_ok = False
+        if info_ok:
             try:
-                info = mod.info(pdf)
                 validar = getattr(mod, "validar", None) or \
                     getattr(mod, "avisos", None)
                 if validar:
                     avisos = len(validar(trans, info))
             except Exception:
-                avisos = 5
-            candidatos.append(((incomp, avisos, -len(trans)), key, trans))
-            log(f"Smart Layout: {key} -> {len(trans)} transações, "
-                f"{incomp} incompletas, {avisos} avisos")
-            if pontos.get(key, 0) > 0 and incomp == 0 and avisos == 0:
-                log(f"Smart Layout: layout escolhido = {key} (pré-análise)", "ok")
-                return key, trans
-        except Exception as exc:
-            log(f"Smart Layout: {key} descartado ({str(exc)[:80]})")
-    if not candidatos:
+                avisos = 3
+        q, comp = _qualidade(trans, info, avisos, info_ok)
+        e = {"key": key, "trans": trans, "n": len(trans), "q": q,
+             "comp": comp, "avisos": avisos, "det": pont[key][0]}
+        avaliados[key] = e
+        log(f"Smart Layout: {key} -> {e['n']} transações, "
+            f"completude {comp * 100:.0f}%, {avisos} avisos, "
+            f"qualidade {q:.2f}, pré-análise {e['det']:.1f}")
+        return e
+
+    est1 = [k for k in ordem if pont[k][0] > 0][:6]
+    primeiro = True
+    for i, key in enumerate(est1):
+        e = avaliar(key)
+        if not e:
+            continue
+        prox = pont[est1[i + 1]][0] if i + 1 < len(est1) else 0.0
+        if (primeiro and e["det"] >= _DET_FORTE and e["q"] >= 0.98
+                and e["avisos"] == 0 and e["det"] - prox >= 8.0):
+            log(f"Smart Layout: layout escolhido = {key} (identificação "
+                "forte + leitura completa)", "ok")
+            return key, e["trans"]
+        primeiro = False
+
+    best = _melhor(avaliados, top_det)
+    if best and best["final"] >= 75.0 and best["q"] >= 0.9:
+        log(f"Smart Layout: layout escolhido = {best['key']}", "ok")
+        return best["key"], best["trans"]
+
+    for key in ordem:
+        if key not in avaliados:
+            avaliar(key)
+    best = _melhor(avaliados, top_det)
+    if not best:
         raise ValueError("Nenhum layout conseguiu ler este PDF.")
-    candidatos.sort(key=lambda c: c[0])
-    _, key, trans = candidatos[0]
-    log(f"Smart Layout: layout escolhido = {key}", "ok")
-    return key, trans
+    if best["det"] < 10 and best["q"] < 0.6:
+        raise ValueError(
+            "Não foi possível identificar o banco com segurança e nenhum "
+            "layout leu o PDF de forma completa. Selecione o layout manualmente.")
+    if best["det"] < 10:
+        log("Smart Layout: identificação do banco de baixa confiança; "
+            "confira o resultado.", "erro")
+    log(f"Smart Layout: layout escolhido = {best['key']}", "ok")
+    return best["key"], best["trans"]
 
 
 def info_fallback(layout, transacoes):
@@ -1170,6 +1410,122 @@ class Api:
             return {"ok": False, "erro": f"{type(exc).__name__}: {exc}",
                     "trace": traceback.format_exc()}
 
+    # [PATCH titlebar v1]
+    def _hwnd(self):
+        if not sys.platform.startswith("win") or not self._window:
+            return None
+        try:
+            return int(self._window.native.Handle.ToInt64())
+        except Exception:
+            try:
+                return int(self._window.native.Handle.ToInt32())
+            except Exception:
+                return None
+
+    def win_minimize(self):
+        try:
+            self._window.minimize()
+        except Exception:
+            pass
+        return True
+
+    def win_close(self):
+        try:
+            self._window.destroy()
+        except Exception:
+            pass
+        return True
+
+    def win_is_max(self):
+        return bool(getattr(self, "_maxed", False))
+
+    def win_toggle_max(self):
+        w = self._window
+        if not w:
+            return False
+        hwnd = self._hwnd()
+        if hwnd:
+            try:
+                import ctypes
+                from ctypes import wintypes
+                u = ctypes.windll.user32
+                flags = 0x0004 | 0x0010
+                if not getattr(self, "_maxed", False):
+                    r = wintypes.RECT()
+                    u.GetWindowRect(hwnd, ctypes.byref(r))
+                    self._restore_rect = (r.left, r.top,
+                                          r.right - r.left, r.bottom - r.top)
+                    wa = wintypes.RECT()
+                    u.SystemParametersInfoW(0x0030, 0, ctypes.byref(wa), 0)
+                    u.SetWindowPos(hwnd, 0, wa.left, wa.top,
+                                   wa.right - wa.left, wa.bottom - wa.top,
+                                   flags)
+                    self._maxed = True
+                else:
+                    x, y, ww, hh = getattr(self, "_restore_rect",
+                                           (100, 100, 1320, 840))
+                    u.SetWindowPos(hwnd, 0, x, y, ww, hh, flags)
+                    self._maxed = False
+                return self._maxed
+            except Exception:
+                pass
+        try:
+            if not getattr(self, "_maxed", False):
+                w.maximize()
+                self._maxed = True
+            else:
+                w.restore()
+                self._maxed = False
+        except Exception:
+            pass
+        return bool(getattr(self, "_maxed", False))
+
+    def win_resize_begin(self):
+        w = self._window
+        if not w:
+            return False
+        hwnd = self._hwnd()
+        if hwnd:
+            try:
+                import ctypes
+                from ctypes import wintypes
+                r = wintypes.RECT()
+                ctypes.windll.user32.GetWindowRect(hwnd, ctypes.byref(r))
+                self._rs = ("win", hwnd, r.left, r.top,
+                            r.right - r.left, r.bottom - r.top)
+                return True
+            except Exception:
+                pass
+        try:
+            self._rs = ("pw", None, 0, 0, int(w.width), int(w.height))
+        except Exception:
+            self._rs = None
+        return True
+
+    def win_resize_drag(self, edge, dx, dy, dpr):
+        rs = getattr(self, "_rs", None)
+        if not rs or getattr(self, "_maxed", False):
+            return False
+        kind, hwnd, left, top, w, h = rs
+        try:
+            dpr = float(dpr or 1)
+            dx, dy = float(dx), float(dy)
+            if kind == "win":
+                import ctypes
+                nw = w + dx * dpr if "r" in edge else w
+                nh = h + dy * dpr if "b" in edge else h
+                nw = max(int(nw), int(1050 * dpr))
+                nh = max(int(nh), int(680 * dpr))
+                ctypes.windll.user32.SetWindowPos(
+                    hwnd, 0, left, top, nw, nh, 0x0004 | 0x0010)
+            else:
+                nw = max(int(w + dx) if "r" in edge else w, 1050)
+                nh = max(int(h + dy) if "b" in edge else h, 680)
+                self._window.resize(nw, nh)
+        except Exception:
+            return False
+        return True
+
     def init_info(self):
         layouts = [{"key": k, "nome": getattr(m, "NOME", k)}
                    for k, m in sorted(LAYOUTS.items())]
@@ -1654,6 +2010,19 @@ class Api:
             self._codigos.pop(uid, None)
         return {"ok": True, "updates": {uid: ""}}
 
+    def txt_desvincular_todos(self, uid):
+        with self._lock:
+            lan = next((l for l in self._lancs if l["uid"] == uid), None)
+            if lan is None:
+                return {"ok": False, "updates": {}, "n": 0}
+            gk = group_key_desc(lan["descricao"], self._num)
+            updates = {}
+            for outro in self._lancs:
+                if group_key_desc(outro["descricao"], self._num) == gk:
+                    self._codigos.pop(outro["uid"], None)
+                    updates[outro["uid"]] = ""
+        return {"ok": True, "updates": updates, "n": len(updates)}
+
     def txt_gerar(self, out):
         with self._lock:
             if not self._lancs:
@@ -1799,10 +2168,61 @@ html.dark #sb-toggle.btn-blue:hover { background:#1a1a1a !important; }
 .cc-day .cc-arrow { display:inline-block; width:14px; font-size:10px; color:#64748b; }
 html.dark .cc-wrap thead th { background:#111111; color:#cfe8fa; }
 html.dark .cc-day:hover td { background:#10202c; }
+
+/* [PATCH titlebar v1] */
+html, body { overflow:hidden; height:100%; }
+#titlebar {
+  height:38px; display:flex; align-items:center; justify-content:space-between;
+  position:relative; z-index:60; color:#ffffff; user-select:none; -webkit-user-select:none;
+  background:linear-gradient(90deg,#0c4a6e 0%,#0369a1 55%,#0284c7 100%);
+  box-shadow:0 1px 6px rgba(15,23,42,.35);
+}
+.tb-drag { flex:1; height:100%; min-width:0; display:flex; align-items:center; gap:10px; padding-left:14px; cursor:default; }
+.tb-drag > * { pointer-events:none; }
+.tb-logo { width:20px; height:20px; border-radius:7px; background:#ffffff; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.tb-logo svg { width:12px; height:12px; }
+.tb-brand { font-weight:600; font-size:13px; letter-spacing:.2px; }
+.tb-brand b { color:#7dd3fc; font-weight:600; }
+.tb-title { font-size:12px; opacity:.8; padding-left:10px; border-left:1px solid rgba(255,255,255,.35); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.tb-ctrl { display:flex; align-items:center; gap:8px; padding:0 14px; }
+.wc-btn {
+  width:26px; height:26px; border-radius:9999px; border:0; padding:0; cursor:pointer;
+  background:rgba(255,255,255,.16); color:#ffffff;
+  display:flex; align-items:center; justify-content:center;
+  transition:background .15s, transform .08s;
+}
+.wc-btn svg { width:12px; height:12px; }
+.wc-btn:hover { background:rgba(255,255,255,.32); }
+.wc-btn:active { transform:scale(.92); }
+#wc-min:hover { background:#f59e0b; }
+#wc-max:hover { background:#10b981; }
+.wc-close:hover { background:#ef4444; }
+html.dark #titlebar { background:linear-gradient(90deg,#000000 0%,#08121b 60%,#0c2a40 100%); border-bottom:1px solid #262626; box-shadow:none; }
+.rz { position:fixed; z-index:70; }
+.rz[data-edge="r"]  { top:38px; right:0; bottom:10px; width:4px; cursor:ew-resize; }
+.rz[data-edge="b"]  { left:0; right:10px; bottom:0; height:4px; cursor:ns-resize; }
+.rz[data-edge="rb"] { right:0; bottom:0; width:10px; height:10px; cursor:nwse-resize; }
+html.is-max .rz { display:none; }
 </style>
 </head>
 <body class="text-slate-800 antialiased">
-<div class="flex h-screen overflow-hidden">
+<!-- [PATCH titlebar v1] -->
+<div id="titlebar">
+  <div id="tb-drag" class="pywebview-drag-region tb-drag">
+    <span class="tb-logo"><svg viewBox="0 0 24 24" fill="none" stroke="#0369a1" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21h10a2 2 0 002-2V9.4a1 1 0 00-.3-.7l-5.4-5.4a1 1 0 00-.7-.3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg></span>
+    <span class="tb-brand">Convert<b>Hub</b></span>
+    <span id="tb-title" class="tb-title">Home</span>
+  </div>
+  <div class="tb-ctrl">
+    <button id="wc-min" class="wc-btn" title="Minimizar"><svg viewBox="0 0 12 12"><rect x="2" y="5.3" width="8" height="1.5" rx=".75" fill="currentColor"/></svg></button>
+    <button id="wc-max" class="wc-btn" title="Maximizar"><svg viewBox="0 0 12 12"><rect x="2.5" y="2.5" width="7" height="7" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+    <button id="wc-close" class="wc-btn wc-close" title="Fechar"><svg viewBox="0 0 12 12"><path d="M2.8 2.8l6.4 6.4M9.2 2.8L2.8 9.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg></button>
+  </div>
+</div>
+<div class="rz" data-edge="r"></div>
+<div class="rz" data-edge="b"></div>
+<div class="rz" data-edge="rb"></div>
+<div class="flex overflow-hidden" style="height:calc(100vh - 38px)">
 
   <!-- Sidebar -->
   <aside class="w-64 bg-white border-r border-slate-200 flex flex-col shrink-0">
@@ -2020,7 +2440,7 @@ html.dark .cc-day:hover td { background:#10202c; }
                   <th class="sortable px-3 py-2 text-right w-36" data-sort="valor">Valor (R$)</th>
                   <th class="sortable px-3 py-2 text-left" data-sort="descricao">Descrição / Nome</th>
                   <th class="sortable px-3 py-2 text-left w-48" data-sort="codigo">Lanc. Automático</th>
-                  <th class="px-3 py-2 text-left w-40">Ação</th>
+                  <th class="px-3 py-2 text-left w-72">Ação</th>
                 </tr>
               </thead>
               <tbody id="txt-body"></tbody>
@@ -2033,7 +2453,7 @@ html.dark .cc-day:hover td { background:#10202c; }
 
     <!-- ========== CONCILIAÇÃO ========== -->
     <div id="module-conciliacao" class="module-content hidden">
-      <div class="flex flex-col" style="height:100vh">
+      <div class="flex flex-col" style="height:calc(100vh - 38px)">
         <header class="bg-white border-b border-slate-200 px-6 py-3 shrink-0">
           <div class="flex items-center justify-between gap-3 flex-wrap">
             <div>
@@ -2460,7 +2880,7 @@ function txtRender() {
       <td class="px-3 py-1.5 text-right tabular-nums">${brl(l.valor)}</td>
       <td class="desc-cell px-3 py-1.5 text-slate-700">${esc(l.descricao)}</td>
       <td class="px-3 py-1"><input class="code-in w-full rounded border border-slate-200 px-2 py-1 text-teal-700 focus:outline-none focus:ring-2 focus:ring-primary-500" value="${esc(l.codigo)}"></td>
-      <td class="px-3 py-1"><button class="unlink text-xs px-2 py-1 rounded border border-red-300 text-red-700 hover:bg-red-50">✕ Desvincular</button></td>
+      <td class="px-3 py-1 whitespace-nowrap"><button class="unlink text-xs px-2 py-1 rounded border border-red-300 text-red-700 hover:bg-red-50">✕ Desvincular</button> <button class="unlink-all text-xs px-2 py-1 rounded border border-red-300 text-red-700 hover:bg-red-50" title="Desvincular todos os lançamentos iguais (respeita a opção 'considerar números')">✕ Desvincular todos</button></td>
     </tr>`).join('');
 }
 $$('th.sortable').forEach(th => th.onclick = () => {
@@ -2494,6 +2914,13 @@ $('#txt-body').addEventListener('change', async e => {
 });
 $('#txt-body').addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.classList.contains('code-in')) e.target.blur(); });
 $('#txt-body').addEventListener('click', async e => {
+  const ba = e.target.closest('.unlink-all');
+  if (ba) {
+    const uidA = ba.closest('tr').dataset.uid;
+    const ra = await py('txt_desvincular_todos', uidA);
+    if (ra.ok) { txtUpdates(ra.updates, uidA); toast(`${ra.n} lançamento(s) desvinculado(s).`); }
+    return;
+  }
   const b = e.target.closest('.unlink'); if (!b) return;
   const uid = b.closest('tr').dataset.uid;
   const r = await py('txt_desvincular', uid); txtUpdates(r.updates, uid);
@@ -2655,7 +3082,7 @@ window.addEventListener('pywebviewready', init);
     document.querySelectorAll('button').forEach(function (b) {
       if (b.classList.contains('btn-blue')) return;
       if (b.classList.contains('sidebar-item') || b.classList.contains('goto-btn')) return;
-      if (b.hasAttribute('data-del') || b.id === 'log-clear') return;
+      if (b.hasAttribute('data-del') || b.id === 'log-clear' || b.classList.contains('wc-btn')) return;
       b.classList.add('btn-blue');
     });
   }
@@ -2837,6 +3264,82 @@ window.addEventListener('pywebviewready', init);
   });
 })();
 </script>
+<script>
+/* [PATCH titlebar v1] */
+(function () {
+  var ICON_MAX = '<svg viewBox="0 0 12 12"><rect x="2.5" y="2.5" width="7" height="7" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
+  var ICON_RES = '<svg viewBox="0 0 12 12"><rect x="2" y="4" width="6" height="6" rx="1.4" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M4.5 3.9V3.4a1.2 1.2 0 011.2-1.2h2.9a1.2 1.2 0 011.2 1.2v2.9a1.2 1.2 0 01-1.2 1.2h-.5" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>';
+  var maxed = false;
+  function api(fn) {
+    var a = Array.prototype.slice.call(arguments, 1);
+    try { return Promise.resolve(window.pywebview.api[fn].apply(null, a)); }
+    catch (e) { return Promise.resolve(null); }
+  }
+  var bMax = document.getElementById('wc-max');
+  function setMax(m) {
+    maxed = !!m;
+    document.documentElement.classList.toggle('is-max', maxed);
+    bMax.innerHTML = maxed ? ICON_RES : ICON_MAX;
+    bMax.title = maxed ? 'Restaurar' : 'Maximizar';
+  }
+  async function toggleMax() { setMax(await api('win_toggle_max')); }
+
+  document.getElementById('wc-min').addEventListener('click', function () { api('win_minimize'); });
+  bMax.addEventListener('click', toggleMax);
+  document.getElementById('wc-close').addEventListener('click', function () { api('win_close'); });
+  document.getElementById('tb-drag').addEventListener('dblclick', toggleMax);
+
+  Array.prototype.forEach.call(document.querySelectorAll('.rz'), function (h) {
+    h.addEventListener('pointerdown', function (e) {
+      if (maxed) return;
+      e.preventDefault();
+      var edge = h.dataset.edge, sx = e.screenX, sy = e.screenY;
+      var ready = api('win_resize_begin');
+      var busy = false, last = null;
+      try { h.setPointerCapture(e.pointerId); } catch (_) {}
+      async function pump() {
+        busy = true;
+        await ready;
+        while (last) {
+          var d = last; last = null;
+          await api('win_resize_drag', edge, d[0], d[1], window.devicePixelRatio || 1);
+        }
+        busy = false;
+      }
+      function move(ev) {
+        last = [ev.screenX - sx, ev.screenY - sy];
+        if (!busy) pump();
+      }
+      function up(ev) {
+        h.removeEventListener('pointermove', move);
+        h.removeEventListener('pointerup', up);
+        h.removeEventListener('pointercancel', up);
+        try { h.releasePointerCapture(ev.pointerId); } catch (_) {}
+      }
+      h.addEventListener('pointermove', move);
+      h.addEventListener('pointerup', up);
+      h.addEventListener('pointercancel', up);
+    });
+  });
+
+  var TITULOS = { 'home': 'Home', 'pdf-ofx': 'PDF \u2192 OFX', 'txt': 'Extrato \u2192 TXT',
+                  'conciliacao': 'Concilia\u00e7\u00e3o Banc\u00e1ria', 'settings': 'Sistema' };
+  function titulo(m) {
+    var t = document.getElementById('tb-title');
+    if (t && TITULOS[m]) t.textContent = TITULOS[m];
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.sidebar-item'), function (b) {
+    b.addEventListener('click', function () { titulo(b.dataset.module); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.goto-btn'), function (b) {
+    b.addEventListener('click', function () { titulo(b.dataset.goto); });
+  });
+  window.addEventListener('pywebviewready', async function () {
+    var m = await api('win_is_max');
+    setMax(m);
+  });
+})();
+</script>
 </body>
 </html>
 """
@@ -2847,7 +3350,7 @@ def main():
     window = webview.create_window(
         "ConvertHub  |  PDF → OFX  •  Extrato → TXT",
         html=HTML, js_api=api, width=1320, height=840,
-        min_size=(1050, 680))
+        min_size=(1050, 680), frameless=True, easy_drag=False)
     api._window = window
     webview.start()
 
